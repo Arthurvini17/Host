@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Host</title>
 </head>
 
@@ -27,9 +29,16 @@
                 <h4>Hospedagem com até <span> 71%</span>OFF</h4>
             </div>
             <div class="ofertas">
-                <p>Dominio Grátis</p>
-                <p>Migração de sites Grátis</p>
-                <p>Suporte ao Cliente 24h</p>
+                <div class="alinhar">
+
+
+                    <p>Dominio Grátis <ion-icon class="icon" name="checkmark-outline"></ion-icon></p>
+
+
+                    <p>Migração de sites Grátis <ion-icon class="icon" name="checkmark-outline"></ion-icon></p>
+
+                    <p>Suporte ao Cliente 24h <ion-icon class="icon" name="checkmark-outline"></ion-icon></p>
+                </div>
             </div>
 
             <div class="preco">
@@ -48,7 +57,7 @@
             <div class="premium">
                 <div class="header">
                     <h1>Hospedagem Premium</h1>
-                    <h5>Perfeita para sites pessoais</h5>
+                    <h4>Perfeita para sites pessoais</h4>
                 </div>
                 <div class="preco">
                     <h1>R$ 12,99 <span>/mês</span></h1>
@@ -57,149 +66,237 @@
                 </div>
                 <div class="itens">
                     <h1>Comparação dos principais recursos</h1>
-                    <p>100 Sites</p>
-                    <p>Largura de Banda Ilimitada</p>
-                    <p>100 GB de Armazenamento SSD</p>
-                    <p>Domínio Grátis (preço R$49,99)</p>
-                    <p>SSL Ilimitado Grátis</p>
-                    <p>Backups Semanais</p>
+                    <p>100 Sites <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Largura de Banda Ilimitada <ion-icon  class="certo" name="checkmark-outline"></ion-icon></p>
+                    <p>100 GB de Armazenamento SSD <ion-icon  class="certo" name="checkmark-outline"></ion-icon></p>
+                    <p>Domínio Grátis (preço R$49,99) <ion-icon  class="certo" name="checkmark-outline"></ion-icon></p>
+                    <p>SSL Ilimitado Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon></p>
+                    <p>Backups Semanais <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>CDN Grátis <ion-icon class="errado" name="close-outline"></ion-icon> </p> 
 
                     <h1>Desempenho</h1>
-                    <p>1 GB RAM</p>
-                    <p>1 Núcleo de CPU</p>
-                    <p>Recursos Dedicados</p>
-                    <p>IP Dedicado</p>
+                    <p>1 GB RAM <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>1 Núcleo de CPU <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Recursos Dedicados <ion-icon class="errado" name="close-outline"></ion-icon> </p>
+                    <p>IP Dedicado <ion-icon class="errado" name="close-outline"></ion-icon> </p>
 
                     <h1>Segurança</h1>
-                    <p>Nameserver Protegidos com a Cloudflare</p>
-                    <p>Detector de malware</p>
+                    <p>Nameserver Protegidos com a Cloudflare <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Detector de malware <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1>Bônus Grátis</h1>
-                    <p>E-mail Grátis</p>
-                    <p>Migração de Sites Grátis</p>
+                    <p>E-mail Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Migração de Sites Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1> Opções WordPress </h1>
-                    <p>WordPress Gerenciado</p>
-                    <p>Aceleração WordPress</p>
-                    <p>WP-CLI</p>
-                    <p>WordPress Multisite</p>
-                    <p>Cache de Objetos para WordPress</p>
-                    <p>Ambiente de Teste do WordPress</p>
+                    <p>WordPress Gerenciado <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Aceleração WordPress <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>WP-CLI <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>WordPress Multisite <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Cache de Objetos para WordPress <ion-icon class="errado" name="close-outline"></ion-icon> </p>
+                    <p>Ambiente de Teste do WordPress <ion-icon class="errado" name="close-outline"></ion-icon> </p>
 
                     <h1>Serviço e Suporte</h1>
-                    <p>30 dias para pedir reembolso</p>
-                    <p> Suporte online 24h</p>
-                    <p>99,9% de Uptime Garantido</p>
-                    <p> Servidores em vários países</p>
+                    <p>30 dias para pedir reembolso <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p> Suporte online 24h <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>99,9% de Uptime Garantido <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p> Servidores em vários países <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
                 </div>
             </div>
 
             <div class="business">
                 <div class="header">
-                    <h1>Hospedagem Premium</h1>
-                    <h5>Perfeita para sites pessoais</h5>
+                    <h1>Hospedagem Business</h1>
+                    <h4>Otimizado para pequenos e médios negócios</h4>
                 </div>
                 <div class="preco">
-                    <h1>R$ 12,99 <span>/mês</span></h1>
+                    <h1>R$ 17,99 <span>/mês</span></h1>
                     <p>Preço assinatura de 48 meses</p>
                     <button>Adicionar ao Carrinho</button>
                 </div>
                 <div class="itens">
                     <h1>Comparação dos principais recursos</h1>
-                    <p>100 Sites</p>
-                    <p>Largura de Banda Ilimitada</p>
-                    <p>100 GB de Armazenamento SSD</p>
-                    <p>Domínio Grátis (preço R$49,99)</p>
-                    <p>SSL Ilimitado Grátis</p>
-                    <p>Backups Semanais</p>
+                    <p>100 Sites <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Largura de Banda Ilimitada <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>100 GB de Armazenamento SSD <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Domínio Grátis (preço R$49,99) <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>SSL Ilimitado Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Backups Diarios(preço R$65,88) <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>CDN Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1>Desempenho</h1>
-                    <p>1 GB RAM</p>
-                    <p>1 Núcleo de CPU</p>
-                    <p>Recursos Dedicados</p>
-                    <p>IP Dedicado</p>
+                    <p>1 GB RAM <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>1 Núcleo de CPU <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Recursos Dedicados <ion-icon class="errado" name="close-outline"></ion-icon> </p>
+                    <p>IP Dedicado <ion-icon class="errado" name="close-outline"></ion-icon> </p>
 
                     <h1>Segurança</h1>
-                    <p>Nameserver Protegidos com a Cloudflare</p>
-                    <p>Detector de malware</p>
+                    <p>Nameserver Protegidos com a Cloudflare <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Detector de malware <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
-                    <h1>Bônus Grátis</h1>
-                    <p>E-mail Grátis</p>
-                    <p>Migração de Sites Grátis</p>
+                    <h1>Bônus Grátis </h1>
+                    <p>E-mail Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Migração de Sites Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1> Opções WordPress </h1>
-                    <p>WordPress Gerenciado</p>
-                    <p>Aceleração WordPress</p>
-                    <p>WP-CLI</p>
-                    <p>WordPress Multisite</p>
-                    <p>Cache de Objetos para WordPress</p>
-                    <p>Ambiente de Teste do WordPress</p>
+                    <p>WordPress Gerenciado <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Aceleração WordPress <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>WP-CLI <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>WordPress Multisite <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Cache de Objetos para WordPress <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Ambiente de Teste do WordPress <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1>Serviço e Suporte</h1>
-                    <p>30 dias para pedir reembolso</p>
-                    <p> Suporte online 24h</p>
-                    <p>99,9% de Uptime Garantido</p>
-                    <p> Servidores em vários países</p>
+                    <p>30 dias para pedir reembolso <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p> Suporte online 24h <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>99,9% de Uptime Garantido <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p> Servidores em vários países <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
                 </div>
             </div>
 
 
             <div class="startup">
                 <div class="header">
-                    <h1>Hospedagem Premium</h1>
-                    <h5>Perfeita para sites pessoais</h5>
+                    <h1>Cloud Startup</h1>
+                    <h4>Otimizada para sites empresariais e lojas virtuais</h4>
                 </div>
                 <div class="preco">
-                    <h1>R$ 12,99 <span>/mês</span></h1>
+                    <h1>R$ 49,99 <span>/mês</span></h1>
                     <p>Preço assinatura de 48 meses</p>
                     <button>Adicionar ao Carrinho</button>
                 </div>
                 <div class="itens">
                     <h1>Comparação dos principais recursos</h1>
-                    <p>100 Sites</p>
-                    <p>Largura de Banda Ilimitada</p>
-                    <p>100 GB de Armazenamento SSD</p>
-                    <p>Domínio Grátis (preço R$49,99)</p>
-                    <p>SSL Ilimitado Grátis</p>
-                    <p>Backups Semanais</p>
+                    <p>300 Sites <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Largura de Banda Ilimitada <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>200 GB de Armazenamento SSD <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Domínio Grátis (preço R$49,99) <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>SSL Ilimitado Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Backups Diarios(preço R$65,88) <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>CDN Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1>Desempenho</h1>
-                    <p>1 GB RAM</p>
-                    <p>1 Núcleo de CPU</p>
-                    <p>Recursos Dedicados</p>
-                    <p>IP Dedicado</p>
+                    <p>3,50 GB RAM <ion-icon  class="certo" name="checkmark-outline"></ion-icon></p>
+                    <p>1 Núcleo de CPU <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Recursos Dedicados <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>IP Dedicado <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1>Segurança</h1>
-                    <p>Nameserver Protegidos com a Cloudflare</p>
-                    <p>Detector de malware</p>
+                    <p>Nameserver Protegidos com a Cloudflare <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Detector de malware <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
-                    <h1>Bônus Grátis</h1>
-                    <p>E-mail Grátis</p>
-                    <p>Migração de Sites Grátis</p>
+                    <h1>Bônus Grátis </h1>
+                    <p>E-mail Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Migração de Sites Grátis <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1> Opções WordPress </h1>
-                    <p>WordPress Gerenciado</p>
-                    <p>Aceleração WordPress</p>
-                    <p>WP-CLI</p>
-                    <p>WordPress Multisite</p>
-                    <p>Cache de Objetos para WordPress</p>
-                    <p>Ambiente de Teste do WordPress</p>
+                    <p>WordPress Gerenciado <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Aceleração WordPress <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>WP-CLI <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>WordPress Multisite <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Cache de Objetos para WordPress <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>Ambiente de Teste do WordPress <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
 
                     <h1>Serviço e Suporte</h1>
-                    <p>30 dias para pedir reembolso</p>
-                    <p> Suporte online 24h</p>
-                    <p>99,9% de Uptime Garantido</p>
-                    <p> Servidores em vários países</p>
+                    <p>30 dias para pedir reembolso <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p> Suporte online 24h <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p>99,9% de Uptime Garantido <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
+                    <p> Servidores em vários países <ion-icon  class="certo" name="checkmark-outline"></ion-icon> </p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="seguranca">
+        <div class="pai">
+            <div class="img">
+                <img src="../public/imagens/Ransomware-bro.svg" alt="">
+            </div>
+
+            <div class="tit">
+                <h1>Segurança avançada</h1>
+                <p><ion-icon class="icon" name="checkmark-outline"></ion-icon> Tenha certificados de segurança SSL ilimitados para criptografar o tráfego de seus sites. </p>
+                <p><ion-icon class="icon" name="checkmark-outline"></ion-icon> Proteja seu site contra ataques DDoS com name servers protegidos pela Cloudflare. </p>
+                <p><ion-icon class="icon" name="checkmark-outline"></ion-icon> Proteja seus arquivos com backups automáticos. </p>
+                <p><ion-icon class="icon" name="checkmark-outline"></ion-icon> Garantimos 99,9% de uptime para que seu site fique online e disponível. </p>
+            </div>
+        </div>
+        <div class="boxs">
+            <div class="left">
+                <h1>Escola</h1>
+                <p>Na agência AES sempre indicamos a Hostinger, porque é a hospedagem que mais passa segurança, disponibilizando SSL gratuito e backup diário. Sem contar que entrega uma alta performance para nossos sites</p>
+            </div>
+
+            <div class="mid">
+                <h1>VPS E CLOUD</h1>
+                <p>A Hospedagem Cloud da Hostinger com SSL gratuito e uptime constante tem sido motivo de tranquilidade para nossa empresa. Nossos sites tem um baixíssimo custo de manutenção e o suporte sempre foi eficiente nos poucos momentos que precisamos.</p>
+            </div>
+
+            <div class="right">
+                <h1>Hospedagem</h1>
+                <p>Temos utilizado as soluções da Hostinger, como Hospedagem Cloud e VPS. Em conjunto com a Cloudflare, tem nos atendido perfeitamente, trazendo para nossos projetos performance e segurança a um custo muito acessível.</p>
+            </div>
+        </div>
 
     </section>
 
     <section id="feedback">
+        <div class="tit">
+            Histórias de sucesso dos nossos clientes
+        </div>
+        <div class="boxs">
+            <div class="left">
+                <div class="star">
+                    </ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon>
+                    <p>A Hostinger me surpreendeu com a incrível experiência do cliente e a migração super fácil em comparação com a minha antiga provedora de hospedagem.</p>
+                    <div class="icone">
+
+                        <img src="../public/imagens/mark.webp" alt="">
+
+                        <div class="sobre">
+                            <h1>Jake Sinclair</h1>
+                            <h2>Designer de Marca</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid">
+                <div class="star">
+                    </ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon>
+                    <p>O que mais importa para mim é o suporte. Os especialistas da Hostinger estavam sempre disponíveis para me ajudar.</p>
+                    <div class="icone">
+
+                        <img src="../public/imagens/mark.webp" alt="">
+
+                        <div class="sobre">
+                            <h1>Jake Sinclair</h1>
+                            <h2>Designer de Marca</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="star">
+                    </ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon> <ion-icon name="star-half-outline"></ion-icon>
+                    <p>Eu procurava por uma provedora de hospedagem que fosse bastante intuitiva para iniciantes e configurada para entregar um ótimo desempenho. </p>
+                    <div class="icone">
+
+                        <img src="../public/imagens/mark.webp" alt="">
+
+                        <div class="sobre">
+                            <h1>Jake Sinclair</h1>
+                            <h2>Designer de Marca</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
 
     </section>
 
