@@ -314,10 +314,6 @@ display: flex;
 
 
 
-#planos .pai .itens h1 {
-   
-    
-}
 
 #planos .pai .premium .itens .certo {
     
@@ -330,9 +326,8 @@ display: flex;
 }
 
 #planos .pai .business .itens .certo {
-    
     color: green;
-  }
+}
 
 #planos .pai .business .itens .errado {
  font-size: 15px;
@@ -481,9 +476,6 @@ font-weight: 700;
     gap: 30px;
     line-height: 24px;
     
-    
-   
-    
 }
 
 
@@ -502,12 +494,16 @@ font-weight: 700;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: #f4f5ff;
-    color: #2f1c6a;
-   
-   
 }
 
+
+#feedback .boxs .icone {
+    background-color: #5025d1;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
 /* 
 #feedback .boxs .left .sobre {
@@ -521,9 +517,6 @@ font-weight: 700;
 #feedback .boxs .left .icone img {
     height: 100px;
     border-radius: 8px;
-    
-   
-    
 }
 
 
@@ -556,8 +549,7 @@ font-weight: 700;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-     background-color: #f4f5ff;
-     color: #2f1c6a;
+  
 }
 
 
@@ -582,8 +574,7 @@ font-weight: 700;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-     background-color: #f4f5ff;
-     color: #2f1c6a;
+    
 }
 
 
@@ -594,6 +585,9 @@ font-weight: 700;
 
 
 
+#feedback .boxs .sobre .left {
+   gap: 30px;
+}
 
 /* #feedback .boxs .right .sobre {
     display: flex;

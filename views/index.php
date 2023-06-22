@@ -15,9 +15,10 @@
         <nav class="navbar">
             <ul>
                 <li><a href="#home">Página Inicial</a></li>
-                <li><a href="#">Planos</a></li>
+                <li><a href="#planos">Planos</a></li>
                 <li><a href="#footer">Contato</a></li>
-                <li><a href="registrar.php"> Entrar </a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="registrar.php"> Entrar</a></li>
             </ul>
         </nav>
     </header>
