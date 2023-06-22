@@ -104,7 +104,7 @@ header {
     
 }
 
-#home .preco button{
+  button{
     align-items: center;
     background-color: #673de6;
     border: none;
@@ -123,9 +123,14 @@ header {
     width: 100%;
     font-weight: 700;
     font-family: 'Poppins';
-  
+    
+    
 }
 
+
+button:hover {
+    background-color: #8b69f3;
+}
 
 
 #home .imagem {
@@ -363,6 +368,13 @@ display: flex;
     background-color: #673de6;
     margin-top: 30px;
 }
+
+
+
+
+
+
+
 #seguranca .pai img {
     width: 600px;
     font-family: 'Poppins';
@@ -375,10 +387,7 @@ display: flex;
     justify-content: center;
     justify-content: space-around;
     display: flex;
-    color: white;
-    
-   
-   
+    color: white;   
 }
 
 #seguranca .pai h1 {
@@ -421,17 +430,25 @@ display: flex;
     line-height: 30px;
     padding: 10px;
     filter: drop-shadow(10px 10px 10px black);
-  
-   
+    cursor: pointer;
 }
+
+
+
 
 #seguranca .boxs .left {
     background-color: #5025d1;
     border-radius: 8px;
     width: 500px;
     height: 300px;
-    
-    
+    transition: background-color 300ms ease-in-out;
+}
+
+#seguranca .boxs .left:hover {
+    background-color: #5f35dd;
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
 }
 
 #seguranca .boxs p {
@@ -445,12 +462,30 @@ display: flex;
         border-radius: 8px; 
         width: 500px;
         height: 300px;
+        transition: background-color 300ms ease-in-out;
 }
+
+#seguranca .boxs .mid:hover {
+    background-color: #5f35dd;
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+}
+
 
 #seguranca .boxs .right {
     background-color: #5025d1;
     border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    transition: background-color 300ms ease-in-out;
+}
 
+
+
+#seguranca .boxs .right:hover {
+    background-color: #5f35dd;
+    border-radius: 8px;
     width: 500px;
     height: 300px;
 }
