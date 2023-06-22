@@ -16,7 +16,7 @@
                 <input type="email" name="email" placeholder="Insira Seu email">
                 <input type="password" name="senha" placeholder="Insira sua senha">
                 <input type="submit" value="Enviar"> 
-                <a href="../views/login.php">Já tem uma conta? entre aqui</a>
+                <a href="login.php">Já tem uma conta? entre aqui</a>
                
             </form>
             </div>
