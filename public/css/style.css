@@ -46,6 +46,7 @@ header {
     text-decoration: none;
     color: #ffff;
     padding: 5px;
+    transition: background-color 300ms ease-in-out;
   }
   
   .navbar li a:hover {
