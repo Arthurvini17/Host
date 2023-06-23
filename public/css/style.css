@@ -641,3 +641,90 @@ font-weight: 700;
 }
 
  */
+ 
+@media (max-width: 412px) {
+    header {
+      height: 80px;
+    }
+    
+    #home .pai {
+      gap: 20px;
+    }
+    
+    #home .tit-inic h1 {
+      font-size: 24px;
+    }
+    
+    #home .ofertas .alinhar p {
+      font-size: 18px;
+    }
+    
+    #home .ofertas .alinhar .icon {
+      font-size: 30px;
+    }
+    
+    #home .imagem {
+      width: 300px;
+    }
+    
+    #planos .pai {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    #planos .pai .premium,
+    #planos .pai .business,
+    #planos .pai .startup {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    
+    #planos .pai .preco h1 {
+      font-size: 24px;
+    }
+    
+    #seguranca .pai img {
+      width: 100%;
+    }
+    
+    #seguranca .pai h1 {
+      font-size: 30px;
+    }
+    
+    #seguranca .pai .tit p {
+      font-size: 18px;
+    }
+    
+    #seguranca .boxs {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    #seguranca .boxs .left,
+    #seguranca .boxs .mid,
+    #seguranca .boxs .right {
+      width: 100%;
+      height: auto;
+    }
+    
+    #feedback .boxs {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    #feedback .boxs .left,
+    #feedback .boxs .mid,
+    #feedback .boxs .right {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    
+    #feedback .boxs .left .icone,
+    #feedback .boxs .mid .icone,
+    #feedback .boxs .right .icone {
+      align-items: center;
+      justify-content: center;
+    }
+  }
